@@ -1,0 +1,1195 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/App.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_app_tsx",
+      "community": 9,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/main.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_main_tsx",
+      "community": 9,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "vite-env.d.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/vite-env.d.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_vite_env_d_ts",
+      "community": 23,
+      "norm_label": "vite-env.d.ts"
+    },
+    {
+      "label": "LoadingProvider.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/context/LoadingProvider.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_context_loadingprovider_tsx",
+      "community": 0,
+      "norm_label": "loadingprovider.tsx"
+    },
+    {
+      "label": "LoadingProvider()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/context/LoadingProvider.tsx",
+      "source_location": "L18",
+      "id": "loadingprovider_loadingprovider",
+      "community": 0,
+      "norm_label": "loadingprovider()"
+    },
+    {
+      "label": "useLoading()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/context/LoadingProvider.tsx",
+      "source_location": "L37",
+      "id": "loadingprovider_useloading",
+      "community": 0,
+      "norm_label": "useloading()"
+    },
+    {
+      "label": "TechStack.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/TechStack.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_techstack_tsx",
+      "community": 3,
+      "norm_label": "techstack.tsx"
+    },
+    {
+      "label": "SphereGeo()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/TechStack.tsx",
+      "source_location": "L41",
+      "id": "techstack_spheregeo",
+      "community": 3,
+      "norm_label": "spheregeo()"
+    },
+    {
+      "label": "Pointer()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/TechStack.tsx",
+      "source_location": "L99",
+      "id": "techstack_pointer",
+      "community": 3,
+      "norm_label": "pointer()"
+    },
+    {
+      "label": "handleScroll()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/TechStack.tsx",
+      "source_location": "L131",
+      "id": "techstack_handlescroll",
+      "community": 3,
+      "norm_label": "handlescroll()"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Navbar.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_navbar_tsx",
+      "community": 10,
+      "norm_label": "navbar.tsx"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Navbar.tsx",
+      "source_location": "L11",
+      "id": "navbar_navbar",
+      "community": 10,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "Work.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Work.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_work_tsx",
+      "community": 11,
+      "norm_label": "work.tsx"
+    },
+    {
+      "label": "setTranslateX()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Work.tsx",
+      "source_location": "L13",
+      "id": "work_settranslatex",
+      "community": 11,
+      "norm_label": "settranslatex()"
+    },
+    {
+      "label": "Cursor.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Cursor.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_cursor_tsx",
+      "community": 12,
+      "norm_label": "cursor.tsx"
+    },
+    {
+      "label": "Cursor()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Cursor.tsx",
+      "source_location": "L5",
+      "id": "cursor_cursor",
+      "community": 12,
+      "norm_label": "cursor()"
+    },
+    {
+      "label": "MainContainer.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/MainContainer.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_maincontainer_tsx",
+      "community": 4,
+      "norm_label": "maincontainer.tsx"
+    },
+    {
+      "label": "resizeHandler()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/MainContainer.tsx",
+      "source_location": "L21",
+      "id": "maincontainer_resizehandler",
+      "community": 4,
+      "norm_label": "resizehandler()"
+    },
+    {
+      "label": "Contact.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Contact.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_contact_tsx",
+      "community": 13,
+      "norm_label": "contact.tsx"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Contact.tsx",
+      "source_location": "L4",
+      "id": "contact_contact",
+      "community": 13,
+      "norm_label": "contact()"
+    },
+    {
+      "label": "WorkImage.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/WorkImage.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_workimage_tsx",
+      "community": 14,
+      "norm_label": "workimage.tsx"
+    },
+    {
+      "label": "handleMouseEnter()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/WorkImage.tsx",
+      "source_location": "L14",
+      "id": "workimage_handlemouseenter",
+      "community": 14,
+      "norm_label": "handlemouseenter()"
+    },
+    {
+      "label": "HoverLinks.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/HoverLinks.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_hoverlinks_tsx",
+      "community": 24,
+      "norm_label": "hoverlinks.tsx"
+    },
+    {
+      "label": "SocialIcons.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/SocialIcons.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_socialicons_tsx",
+      "community": 15,
+      "norm_label": "socialicons.tsx"
+    },
+    {
+      "label": "SocialIcons()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/SocialIcons.tsx",
+      "source_location": "L12",
+      "id": "socialicons_socialicons",
+      "community": 15,
+      "norm_label": "socialicons()"
+    },
+    {
+      "label": "WhatIDo.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/WhatIDo.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_whatido_tsx",
+      "community": 16,
+      "norm_label": "whatido.tsx"
+    },
+    {
+      "label": "setRef()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/WhatIDo.tsx",
+      "source_location": "L7",
+      "id": "whatido_setref",
+      "community": 16,
+      "norm_label": "setref()"
+    },
+    {
+      "label": "Landing.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Landing.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_landing_tsx",
+      "community": 17,
+      "norm_label": "landing.tsx"
+    },
+    {
+      "label": "Landing()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Landing.tsx",
+      "source_location": "L4",
+      "id": "landing_landing",
+      "community": 17,
+      "norm_label": "landing()"
+    },
+    {
+      "label": "Loading.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Loading.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_loading_tsx",
+      "community": 5,
+      "norm_label": "loading.tsx"
+    },
+    {
+      "label": "handleMouseMove()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Loading.tsx",
+      "source_location": "L36",
+      "id": "loading_handlemousemove",
+      "community": 5,
+      "norm_label": "handlemousemove()"
+    },
+    {
+      "label": "clear()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Loading.tsx",
+      "source_location": "L115",
+      "id": "loading_clear",
+      "community": 5,
+      "norm_label": "clear()"
+    },
+    {
+      "label": "loaded()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Loading.tsx",
+      "source_location": "L120",
+      "id": "loading_loaded",
+      "community": 5,
+      "norm_label": "loaded()"
+    },
+    {
+      "label": "About.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/About.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_about_tsx",
+      "community": 18,
+      "norm_label": "about.tsx"
+    },
+    {
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/About.tsx",
+      "source_location": "L3",
+      "id": "about_about",
+      "community": 18,
+      "norm_label": "about()"
+    },
+    {
+      "label": "Career.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Career.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_career_tsx",
+      "community": 19,
+      "norm_label": "career.tsx"
+    },
+    {
+      "label": "Career()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Career.tsx",
+      "source_location": "L3",
+      "id": "career_career",
+      "community": 19,
+      "norm_label": "career()"
+    },
+    {
+      "label": "index.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/index.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_index_tsx",
+      "community": 20,
+      "norm_label": "index.tsx"
+    },
+    {
+      "label": "CharacterModel()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/index.tsx",
+      "source_location": "L3",
+      "id": "index_charactermodel",
+      "community": 20,
+      "norm_label": "charactermodel()"
+    },
+    {
+      "label": "Scene.tsx",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/Scene.tsx",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_scene_tsx",
+      "community": 0,
+      "norm_label": "scene.tsx"
+    },
+    {
+      "label": "Scene()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/Scene.tsx",
+      "source_location": "L16",
+      "id": "scene_scene",
+      "community": 0,
+      "norm_label": "scene()"
+    },
+    {
+      "label": "exports.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/exports.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_exports_ts",
+      "community": 25,
+      "norm_label": "exports.ts"
+    },
+    {
+      "label": "character.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/character.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_character_ts",
+      "community": 21,
+      "norm_label": "character.ts"
+    },
+    {
+      "label": "setCharacter()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/character.ts",
+      "source_location": "L6",
+      "id": "character_setcharacter",
+      "community": 21,
+      "norm_label": "setcharacter()"
+    },
+    {
+      "label": "resizeUtils.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/resizeUtils.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_resizeutils_ts",
+      "community": 2,
+      "norm_label": "resizeutils.ts"
+    },
+    {
+      "label": "handleResize()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/resizeUtils.ts",
+      "source_location": "L5",
+      "id": "resizeutils_handleresize",
+      "community": 2,
+      "norm_label": "handleresize()"
+    },
+    {
+      "label": "animationUtils.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_animationutils_ts",
+      "community": 6,
+      "norm_label": "animationutils.ts"
+    },
+    {
+      "label": "setAnimations()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L5",
+      "id": "animationutils_setanimations",
+      "community": 6,
+      "norm_label": "setanimations()"
+    },
+    {
+      "label": "createBoneAction()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L86",
+      "id": "animationutils_createboneaction",
+      "community": 6,
+      "norm_label": "createboneaction()"
+    },
+    {
+      "label": "filterAnimationTracks()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L103",
+      "id": "animationutils_filteranimationtracks",
+      "community": 6,
+      "norm_label": "filteranimationtracks()"
+    },
+    {
+      "label": "lighting.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/lighting.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_lighting_ts",
+      "community": 22,
+      "norm_label": "lighting.ts"
+    },
+    {
+      "label": "setLighting()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/lighting.ts",
+      "source_location": "L5",
+      "id": "lighting_setlighting",
+      "community": 22,
+      "norm_label": "setlighting()"
+    },
+    {
+      "label": "decrypt.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/decrypt.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_decrypt_ts",
+      "community": 7,
+      "norm_label": "decrypt.ts"
+    },
+    {
+      "label": "generateAESKey()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/decrypt.ts",
+      "source_location": "L1",
+      "id": "decrypt_generateaeskey",
+      "community": 7,
+      "norm_label": "generateaeskey()"
+    },
+    {
+      "label": "decryptFile()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/decrypt.ts",
+      "source_location": "L13",
+      "id": "decrypt_decryptfile",
+      "community": 7,
+      "norm_label": "decryptfile()"
+    },
+    {
+      "label": "mouseUtils.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "community": 1,
+      "norm_label": "mouseutils.ts"
+    },
+    {
+      "label": "handleMouseMove()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L3",
+      "id": "mouseutils_handlemousemove",
+      "community": 1,
+      "norm_label": "handlemousemove()"
+    },
+    {
+      "label": "handleTouchMove()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L12",
+      "id": "mouseutils_handletouchmove",
+      "community": 1,
+      "norm_label": "handletouchmove()"
+    },
+    {
+      "label": "handleTouchEnd()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L21",
+      "id": "mouseutils_handletouchend",
+      "community": 1,
+      "norm_label": "handletouchend()"
+    },
+    {
+      "label": "handleHeadRotation()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L37",
+      "id": "mouseutils_handleheadrotation",
+      "community": 1,
+      "norm_label": "handleheadrotation()"
+    },
+    {
+      "label": "initialFX.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/initialFX.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_initialfx_ts",
+      "community": 8,
+      "norm_label": "initialfx.ts"
+    },
+    {
+      "label": "initialFX()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/initialFX.ts",
+      "source_location": "L5",
+      "id": "initialfx_initialfx",
+      "community": 8,
+      "norm_label": "initialfx()"
+    },
+    {
+      "label": "LoopText()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/initialFX.ts",
+      "source_location": "L83",
+      "id": "initialfx_looptext",
+      "community": 8,
+      "norm_label": "looptext()"
+    },
+    {
+      "label": "splitText.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/splitText.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_splittext_ts",
+      "community": 4,
+      "norm_label": "splittext.ts"
+    },
+    {
+      "label": "setSplitText()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/splitText.ts",
+      "source_location": "L13",
+      "id": "splittext_setsplittext",
+      "community": 4,
+      "norm_label": "setsplittext()"
+    },
+    {
+      "label": "GsapScroll.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/GsapScroll.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_gsapscroll_ts",
+      "community": 2,
+      "norm_label": "gsapscroll.ts"
+    },
+    {
+      "label": "setCharTimeline()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/GsapScroll.ts",
+      "source_location": "L4",
+      "id": "gsapscroll_setchartimeline",
+      "community": 2,
+      "norm_label": "setchartimeline()"
+    },
+    {
+      "label": "setAllTimeline()",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/GsapScroll.ts",
+      "source_location": "L135",
+      "id": "gsapscroll_setalltimeline",
+      "community": 2,
+      "norm_label": "setalltimeline()"
+    },
+    {
+      "label": "boneData.ts",
+      "file_type": "code",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/data/boneData.ts",
+      "source_location": "L1",
+      "id": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_data_bonedata_ts",
+      "community": 26,
+      "norm_label": "bonedata.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_main_tsx",
+      "_tgt": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_app_tsx",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_app_tsx",
+      "target": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_main_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/context/LoadingProvider.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_context_loadingprovider_tsx",
+      "_tgt": "loadingprovider_loadingprovider",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_context_loadingprovider_tsx",
+      "target": "loadingprovider_loadingprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/context/LoadingProvider.tsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_context_loadingprovider_tsx",
+      "_tgt": "loadingprovider_useloading",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_context_loadingprovider_tsx",
+      "target": "loadingprovider_useloading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/Scene.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "scene_scene",
+      "_tgt": "loadingprovider_useloading",
+      "source": "loadingprovider_useloading",
+      "target": "scene_scene"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/TechStack.tsx",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_techstack_tsx",
+      "_tgt": "techstack_spheregeo",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_techstack_tsx",
+      "target": "techstack_spheregeo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/TechStack.tsx",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_techstack_tsx",
+      "_tgt": "techstack_pointer",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_techstack_tsx",
+      "target": "techstack_pointer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/TechStack.tsx",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_techstack_tsx",
+      "_tgt": "techstack_handlescroll",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_techstack_tsx",
+      "target": "techstack_handlescroll",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Navbar.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_navbar_tsx",
+      "_tgt": "navbar_navbar",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_navbar_tsx",
+      "target": "navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Work.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_work_tsx",
+      "_tgt": "work_settranslatex",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_work_tsx",
+      "target": "work_settranslatex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Cursor.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_cursor_tsx",
+      "_tgt": "cursor_cursor",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_cursor_tsx",
+      "target": "cursor_cursor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/MainContainer.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_maincontainer_tsx",
+      "_tgt": "maincontainer_resizehandler",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_maincontainer_tsx",
+      "target": "maincontainer_resizehandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/MainContainer.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "maincontainer_resizehandler",
+      "_tgt": "splittext_setsplittext",
+      "source": "maincontainer_resizehandler",
+      "target": "splittext_setsplittext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Contact.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_contact_tsx",
+      "_tgt": "contact_contact",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_contact_tsx",
+      "target": "contact_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/WorkImage.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_workimage_tsx",
+      "_tgt": "workimage_handlemouseenter",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_workimage_tsx",
+      "target": "workimage_handlemouseenter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/SocialIcons.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_socialicons_tsx",
+      "_tgt": "socialicons_socialicons",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_socialicons_tsx",
+      "target": "socialicons_socialicons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/WhatIDo.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_whatido_tsx",
+      "_tgt": "whatido_setref",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_whatido_tsx",
+      "target": "whatido_setref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Landing.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_landing_tsx",
+      "_tgt": "landing_landing",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_landing_tsx",
+      "target": "landing_landing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Loading.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_loading_tsx",
+      "_tgt": "loading_handlemousemove",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_loading_tsx",
+      "target": "loading_handlemousemove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Loading.tsx",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_loading_tsx",
+      "_tgt": "loading_clear",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_loading_tsx",
+      "target": "loading_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Loading.tsx",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_loading_tsx",
+      "_tgt": "loading_loaded",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_loading_tsx",
+      "target": "loading_loaded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/About.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_about_tsx",
+      "_tgt": "about_about",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_about_tsx",
+      "target": "about_about",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Career.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_career_tsx",
+      "_tgt": "career_career",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_career_tsx",
+      "target": "career_career",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/index.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_index_tsx",
+      "_tgt": "index_charactermodel",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_index_tsx",
+      "target": "index_charactermodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/Scene.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_scene_tsx",
+      "_tgt": "scene_scene",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_scene_tsx",
+      "target": "scene_scene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/character.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_character_ts",
+      "_tgt": "character_setcharacter",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_character_ts",
+      "target": "character_setcharacter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/resizeUtils.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_resizeutils_ts",
+      "_tgt": "resizeutils_handleresize",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_resizeutils_ts",
+      "target": "resizeutils_handleresize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/resizeUtils.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "resizeutils_handleresize",
+      "_tgt": "gsapscroll_setchartimeline",
+      "source": "resizeutils_handleresize",
+      "target": "gsapscroll_setchartimeline"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/resizeUtils.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "resizeutils_handleresize",
+      "_tgt": "gsapscroll_setalltimeline",
+      "source": "resizeutils_handleresize",
+      "target": "gsapscroll_setalltimeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_animationutils_ts",
+      "_tgt": "animationutils_setanimations",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_animationutils_ts",
+      "target": "animationutils_setanimations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_animationutils_ts",
+      "_tgt": "animationutils_createboneaction",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_animationutils_ts",
+      "target": "animationutils_createboneaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_animationutils_ts",
+      "_tgt": "animationutils_filteranimationtracks",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_animationutils_ts",
+      "target": "animationutils_filteranimationtracks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "animationutils_setanimations",
+      "_tgt": "animationutils_createboneaction",
+      "source": "animationutils_setanimations",
+      "target": "animationutils_createboneaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/animationUtils.ts",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_src": "animationutils_createboneaction",
+      "_tgt": "animationutils_filteranimationtracks",
+      "source": "animationutils_createboneaction",
+      "target": "animationutils_filteranimationtracks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/lighting.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_lighting_ts",
+      "_tgt": "lighting_setlighting",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_lighting_ts",
+      "target": "lighting_setlighting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/decrypt.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_decrypt_ts",
+      "_tgt": "decrypt_generateaeskey",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_decrypt_ts",
+      "target": "decrypt_generateaeskey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/decrypt.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_decrypt_ts",
+      "_tgt": "decrypt_decryptfile",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_decrypt_ts",
+      "target": "decrypt_decryptfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/decrypt.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_src": "decrypt_decryptfile",
+      "_tgt": "decrypt_generateaeskey",
+      "source": "decrypt_generateaeskey",
+      "target": "decrypt_decryptfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "_tgt": "mouseutils_handlemousemove",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "target": "mouseutils_handlemousemove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "_tgt": "mouseutils_handletouchmove",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "target": "mouseutils_handletouchmove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "_tgt": "mouseutils_handletouchend",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "target": "mouseutils_handletouchend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/Character/utils/mouseUtils.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "_tgt": "mouseutils_handleheadrotation",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_character_utils_mouseutils_ts",
+      "target": "mouseutils_handleheadrotation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/initialFX.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_initialfx_ts",
+      "_tgt": "initialfx_initialfx",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_initialfx_ts",
+      "target": "initialfx_initialfx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/initialFX.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_initialfx_ts",
+      "_tgt": "initialfx_looptext",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_initialfx_ts",
+      "target": "initialfx_looptext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/initialFX.ts",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "initialfx_initialfx",
+      "_tgt": "initialfx_looptext",
+      "source": "initialfx_initialfx",
+      "target": "initialfx_looptext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/splitText.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_splittext_ts",
+      "_tgt": "splittext_setsplittext",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_splittext_ts",
+      "target": "splittext_setsplittext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/GsapScroll.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_gsapscroll_ts",
+      "_tgt": "gsapscroll_setchartimeline",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_gsapscroll_ts",
+      "target": "gsapscroll_setchartimeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/shubhajitmandal/VsCodeProject/Portfolio-Website-main/src/components/utils/GsapScroll.ts",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_src": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_gsapscroll_ts",
+      "_tgt": "gsapscroll_setalltimeline",
+      "source": "users_shubhajitmandal_vscodeproject_portfolio_website_main_src_components_utils_gsapscroll_ts",
+      "target": "gsapscroll_setalltimeline",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
