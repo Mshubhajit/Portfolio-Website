@@ -23,14 +23,14 @@ const Navbar = () => {
     smoother.scrollTop(0);
     smoother.paused(true);
 
-    let links = document.querySelectorAll(".header ul a");
+    const links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
-      let element = elem as HTMLAnchorElement;
+      const element = elem as HTMLAnchorElement;
       element.addEventListener("click", (e) => {
         if (window.innerWidth > 1024) {
           e.preventDefault();
-          let elem = e.currentTarget as HTMLAnchorElement;
-          let section = elem.getAttribute("data-href");
+          const elem = e.currentTarget as HTMLAnchorElement;
+          const section = elem.getAttribute("data-href");
           smoother.scrollTo(section, true, "top top");
         }
       });
@@ -42,15 +42,18 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+        <a href="/#" className="loader-title" data-cursor="disable">
+            <img 
+              src="/images/logo/logo3.png" 
+              style={{ width: '60px', height: '60px', objectFit: 'contain' }}
+            />
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:Shubhajit.official2021@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          Shubhajit.official2021@gmail.com
         </a>
         <ul>
           <li>
@@ -61,11 +64,6 @@ const Navbar = () => {
           <li>
             <a data-href="#work" href="#work">
               <HoverLinks text="WORK" />
-            </a>
-          </li>
-          <li>
-            <a data-href="#architecture" href="#architecture">
-              <HoverLinks text="ARCHITECTURE" />
             </a>
           </li>
           <li>

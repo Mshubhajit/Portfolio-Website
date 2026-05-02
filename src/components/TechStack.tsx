@@ -13,18 +13,26 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/reacagest2.webp",
+  
   "/images/mongo.webp",
   "/images/mysql.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/aws.png",
+  "/images/golang.png",
+  "/images/java.png",
 ];
-const textures = imageUrls.map((url) => textureLoader.load(url));
+const textures = imageUrls.map((url) => {
+  const texture = textureLoader.load(url);
+  texture.colorSpace = THREE.SRGBColorSpace;
+  return texture;
+});
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
-const spheres = [...Array(imageUrls.length * 3)].map(() => ({
+const spheres = [...Array(imageUrls.length)].map((_, i) => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
+  textureIndex: i, // Assign corresponding texture index
 }));
 
 type SphereProps = {
@@ -33,6 +41,7 @@ type SphereProps = {
   r?: typeof THREE.MathUtils.randFloatSpread;
   material: THREE.MeshPhysicalMaterial;
   isActive: boolean;
+  textureIndex?: number;
 };
 
 function SphereGeo({
@@ -155,10 +164,11 @@ const TechStack = () => {
           map: texture,
           emissive: "#ffffff",
           emissiveMap: texture,
-          emissiveIntensity: 0.3,
-          metalness: 0.5,
-          roughness: 1,
+          emissiveIntensity: 0.5,
+          metalness: 0.4,
+          roughness: 0.8,
           clearcoat: 0.1,
+          side: THREE.DoubleSide,
         })
     );
   }, []);
@@ -190,7 +200,7 @@ const TechStack = () => {
             <SphereGeo
               key={i}
               {...props}
-              material={materials[Math.floor(Math.random() * materials.length)]}
+              material={materials[props.textureIndex !== undefined ? props.textureIndex : i]}
               isActive={isActive}
             />
           ))}
