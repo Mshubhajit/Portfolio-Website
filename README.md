@@ -60,25 +60,3 @@ npm run build
 npm run preview
 ```
 
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── Character/       # Three.js 3D character
-│   ├── styles/          # Component-scoped CSS
-│   ├── Landing.tsx
-│   ├── About.tsx
-│   ├── WhatIDo.tsx
-│   ├── TechStack.tsx
-│   ├── Work.tsx
-│   ├── Career.tsx
-│   ├── Contact.tsx
-│   ├── Navbar.tsx
-│   └── ...
-└── index.css
-```
-
-## Deployment
-
-The site is deployed on **Vercel**. Push to `main` to trigger a production deployment.
