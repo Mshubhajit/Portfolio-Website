@@ -31,7 +31,7 @@ const textures = imageUrls.map((url) => {
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
 const spheres = [...Array(imageUrls.length)].map((_, i) => ({
-  scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
+  scale: [1.2, 1.5, 1.3, 1.5, 1.4][Math.floor(Math.random() * 5)],
   textureIndex: i, // Assign corresponding texture index
 }));
 

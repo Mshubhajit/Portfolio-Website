@@ -4,46 +4,44 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
-gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const Work = () => {
   useGSAP(() => {
-  let translateX: number = 0;
-
-  function setTranslateX() {
+  function getTranslateX(): number {
     const box = document.getElementsByClassName("work-box");
+    if (!box.length) return 0;
     const rectLeft = document
       .querySelector(".work-container")!
       .getBoundingClientRect().left;
     const rect = box[0].getBoundingClientRect();
     const parentWidth = box[0].parentElement!.getBoundingClientRect().width;
-    let padding: number =
+    const padding: number =
       parseInt(window.getComputedStyle(box[0]).padding) / 2;
-    translateX = rect.width * box.length - (rectLeft + parentWidth) + padding;
+    return rect.width * box.length - (rectLeft + parentWidth) + padding;
   }
 
-  setTranslateX();
+  const workFlex = document.querySelector<HTMLElement>(".work-flex")!;
 
-  let timeline = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".work-section",
-      start: "top top",
-      end: `+=${translateX}`, // Use actual scroll width
-      scrub: true,
-      pin: true,
-      id: "work",
+  const st = ScrollTrigger.create({
+    trigger: ".work-section",
+    start: "top top",
+    end: () => `+=${getTranslateX()}`,
+    scrub: true,
+    pin: true,
+    pinSpacing: true,
+    invalidateOnRefresh: true,
+    id: "work",
+    onRefresh: (self) => {
+      gsap.set(workFlex, { x: gsap.utils.interpolate(0, -getTranslateX(), self.progress) });
+    },
+    onUpdate: (self) => {
+      gsap.set(workFlex, { x: -getTranslateX() * self.progress });
     },
   });
 
-  timeline.to(".work-flex", {
-    x: -translateX,
-    ease: "none",
-  });
-
-  // Clean up (optional, good practice)
   return () => {
-    timeline.kill();
-    ScrollTrigger.getById("work")?.kill();
+    st.kill();
   };
 }, []);
   return (
@@ -53,21 +51,47 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {[
+            {
+              name: "RAG based Image Search",
+              category: "Category:RAG",
+              tools: "Python, Ollama, Chainlit,llava",
+              image: "/images/rag.png",
+            },
+            {
+              name: "Agentic SWAMP",
+              category: "Category:Agentic AI",
+              tools: "ReactJs, Python, CrewAi, OpenAiGpt4",
+              image: "/images/agentic.png",
+            },
+            {
+              name: "RAG Based Document Search",
+              category: "Category:RAG",
+              tools: "Ollama, Chainlit, Python, Qwen",
+              image: "/images/documentrag.png",
+            },
+            {
+              name: "Portfolio Website",
+              category: "Category:Static React Application",
+              tools: "Javascript, TypeScript, React, Threejs",
+              image: "/images/portfolio.png",
+            },
+            
+          ].map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.name}</h4>
+                    <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={project.image} alt={project.name} />
             </div>
           ))}
         </div>

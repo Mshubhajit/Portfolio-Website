@@ -52,6 +52,11 @@
   justify-content: space-between;
   gap: 50px;
 }
+.career-year {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 .career-info h3 {
   font-size: 48px;
   margin: 0;

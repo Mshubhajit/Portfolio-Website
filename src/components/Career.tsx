@@ -15,43 +15,32 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Java Developer</h4>
+                <h5>Happiest Mind Technology</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2021</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Engineered backend microservices for an enterprise e-commerce 
+              platform serving thousands of employees, delivering reliable 
+              product discovery, ordering, and inventory management capabilities.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Software Engineer</h4>
+                <h5>Volkswagen Group Digital Solutions</h5>
               </div>
-              <h3>20XX</h3>
+              <div className="career-year">
+                <h3>2023</h3>
+                <h5>Present</h5>
+              </div>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Developed and maintained a multi-service enterprise failure 
+              analysis platform used by engineering and R&D teams for structured 
+              investigation workflows and reporting processes.
             </p>
           </div>
         </div>
