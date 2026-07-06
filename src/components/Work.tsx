@@ -56,25 +56,25 @@ const Work = () => {
               name: "RAG based Image Search",
               category: "Category:RAG",
               tools: "Python, Ollama, Chainlit,llava",
-              image: "/images/rag.png",
+              image: `${import.meta.env.BASE_URL}images/rag.png`,
             },
             {
               name: "Agentic SWAMP",
               category: "Category:Agentic AI",
               tools: "ReactJs, Python, CrewAi, OpenAiGpt4",
-              image: "/images/agentic.png",
+              image: `${import.meta.env.BASE_URL}images/agentic.png`,
             },
             {
               name: "RAG Based Document Search",
               category: "Category:RAG",
               tools: "Ollama, Chainlit, Python, Qwen",
-              image: "/images/documentrag.png",
+              image: `${import.meta.env.BASE_URL}images/documentrag.png`,
             },
             {
               name: "Portfolio Website",
               category: "Category:Static React Application",
               tools: "Javascript, TypeScript, React, Threejs",
-              image: "/images/portfolio.png",
+              image: `${import.meta.env.BASE_URL}images/portfolio.png`,
             },
             
           ].map((project, index) => (

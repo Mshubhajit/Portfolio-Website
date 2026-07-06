@@ -148,7 +148,7 @@ const WhatIDo = () => {
                   <div className="what-tags">GitHub Copilot</div>
                   <div className="what-tags">Prompt Engineering</div>
                   <div className="what-tags">Agentic AI</div>
-                  <div className="what-tags">Vibe Cooding</div>
+                  <div className="what-tags">Vibe Coding</div>
               </div>
               <div className="what-arrow"></div>
             </div>

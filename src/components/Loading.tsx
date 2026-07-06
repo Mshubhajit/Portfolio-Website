@@ -47,7 +47,7 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
           <img 
-            src="/images/logo/logo3.png" 
+            src={`${import.meta.env.BASE_URL}images/logo/logo3.png`}
             style={{ width: '60px', height: '60px', objectFit: 'contain' }}
           />
         </a>
