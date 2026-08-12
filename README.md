@@ -60,3 +60,43 @@ npm run build
 npm run preview
 ```
 
+## Deploying to GitHub Pages
+
+This project is deployed via the `gh-pages` package, which builds the site and pushes the `dist/` folder to the `gh-pages` branch. The live site is served from there.
+
+Whenever you make changes and want to publish them:
+
+```bash
+git add .
+git commit -m "your commit message"
+git push origin main
+
+npm run deploy
+```
+
+`npm run deploy` runs `gh-pages -d dist`, which pushes the current `dist/` folder to the `gh-pages` branch — but it does **not** rebuild first, so make sure you run `npm run build` beforehand (or add it as a `predeploy` step, see below):
+
+```bash
+npm run build
+npm run deploy
+```
+
+Notes:
+
+- The site is published from `homepage` in [package.json](package.json): `https://Mshubhajit.github.io/Portfolio-Website`.
+- Changes can take a minute or two to appear live after deploying.
+- Pushing to `main` alone does **not** update the live site — you must also run `npm run build && npm run deploy`.
+
+### Optional: auto-build before deploy
+
+To avoid forgetting to build first, add a `predeploy` script to [package.json](package.json) so it runs automatically before every deploy:
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+```
+
+With this in place, `npm run deploy` alone will build and publish in one step.
+

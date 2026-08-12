@@ -21,6 +21,7 @@ const imageUrls = [
   `${base}images/aws.png`,
   `${base}images/golang.png`,
   `${base}images/java.png`,
+  `${base}images/react.png`,
 ];
 const textures = imageUrls.map((url) => {
   const texture = textureLoader.load(url);
