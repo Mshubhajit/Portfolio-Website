@@ -1,0 +1,113 @@
+.certification-section {
+  margin: auto;
+  padding-bottom: 100px;
+  margin-top: 40px;
+}
+.certification-section h3 {
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.certification-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.cert-card {
+  flex: 1;
+  display: flex;
+}
+.cert-card-inner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #363636;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent);
+  transform-style: preserve-3d;
+  cursor: pointer;
+  overflow: hidden;
+}
+.cert-spotlight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+}
+.cert-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  cursor: pointer;
+}
+.cert-frame img {
+  max-width: 85%;
+  max-height: 85%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.cert-tooltip {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.cert-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.7;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (max-width: 1600px) {
+  .certification-section h3 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .certification-section h3 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .certification-flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .certification-section {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .certification-container {
+    width: calc(100% - 25px);
+  }
+  .cert-frame {
+    max-width: 220px;
+  }
+}
