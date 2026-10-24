@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am an experienced Software Engnieer with 5+ years of proficiency in Full Stack development and web technologies. Demonstrating strong creative and analytical skills, Ability to work in large, collaborative teams, I excel in effective communication and function seamlessly as a team player with a keen eye for detail to achieve organizational goals, with a passion to build an inclusive and innovative culture.
+          I build software that solves real problems. As a Software Engineer with 3+ years of experience in full-stack development, backend systems, and cloud technologies, I enjoy turning complex ideas into practical, scalable solutions. Always curious and eager to learn, I’m driven by clean architecture, thoughtful engineering, and the opportunity to create meaningful digital experiences.
         </p>
       </div>
     </div>

@@ -12,20 +12,7 @@ const Career = () => {
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Java Developer</h4>
-                <h5>Happiest Mind Technology</h5>
-              </div>
-              <h3>2021</h3>
-            </div>
-            <p>
-              Engineered backend microservices for an enterprise e-commerce 
-              platform serving thousands of employees, delivering reliable 
-              product discovery, ordering, and inventory management capabilities.
-            </p>
-          </div>
+         
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
